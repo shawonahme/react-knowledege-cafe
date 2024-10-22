@@ -1,0 +1,61 @@
+[
+    {
+      
+      "cover": "https://i.ibb.co.com/x3DL5vS/1.jpg",
+      "profile_img": "https://i.ibb.co.com/XVHV19H/boy1.png",
+      "title": "Exploring the Future of AI",
+      "hashtags": ["#AI", "#Future", "#Tech"],
+      "read_time": 5,
+      "id":1,
+      "postdata": "Artificial Intelligence is evolving rapidly, transforming industries and creating new opportunities.",
+      "post_date": "Oct 10 (2 Days ago)"
+    },
+    {
+      "cover": "https://i.ibb.co.com/8DxZbPq/2.png",
+      "profile_img": "https://i.ibb.co.com/QQvVkbG/boy2.jpg",
+      "title": "Top 10 Coding Practices",
+      "hashtags": ["#Coding", "#BestPractices", "#DeveloperTips"],
+      "read_time": 7,
+      "id":2,
+      "postdata": "Following best coding practices can save time and reduce bugs, enhancing your overall development process.",
+      "post_date": "Mar 14 (4 Days ago)"
+    },
+    {
+      "cover": "https://i.ibb.co.com/SswLxY0/3.png",
+      "profile_img": "https://i.ibb.co.com/Wf94xVC/girl1.jpg",
+      "title": "The Rise of Blockchain",
+      "hashtags": ["#Blockchain", "#Cryptocurrency", "#TechTrends"],
+      "read_time": 6,
+      "id":3,
+      "postdata": "Blockchain technology has revolutionized financial systems, offering transparency and security.",
+      "post_date": "Sep 22 (1 Week ago)"
+    },
+    {
+      "cover": "https://i.ibb.co.com/2WNKp6y/4.jpg",
+      "profile_img": "https://i.ibb.co.com/3vFXZqs/girl2.jpg",
+      "title": "Healthy Work-Life Balance for Developers",
+      "hashtags": ["#WorkLifeBalance", "#DeveloperLife", "#MentalHealth"],
+      "read_time": 4,
+      "id":4,
+      "postdata": "Maintaining a healthy work-life balance is crucial for developers to avoid burnout and boost productivity.",
+      "post_date": "Aug 30 (3 Weeks ago)"
+    },
+    {
+      "cover": "https://i.ibb.co.com/SswLxY0/3.png",
+      "profile_img": "https://i.ibb.co.com/6gxgff1/profile.png",
+      "title": "Getting Started with Machine Learning",
+      "hashtags": ["#MachineLearning", "#AI", "#DataScience"],
+      "read_time": 8,
+      "id":5,
+      "postdata": "Machine Learning opens up endless possibilities for solving complex problems with data-driven insights.",
+      "post_date": "Jan 10 (9 Months ago)"
+    }
+  ]
+  
+
+
+
+
+
+
+

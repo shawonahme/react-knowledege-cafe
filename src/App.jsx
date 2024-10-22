@@ -1,5 +1,7 @@
 
 import './App.css'
+import Blogs from './components/blogs/blogs'
+
 
 function App() {
   
@@ -7,8 +9,8 @@ function App() {
   return (
     <>
      
-     
-      
+  
+    <Blogs></Blogs>
       
     </>
   )
