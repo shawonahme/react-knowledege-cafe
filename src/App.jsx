@@ -9,13 +9,24 @@ import Header from './components/Header.jsx/Header'
 
 function App() {
   
+  //add cart function
   const [cart,setcart] =useState([])
   const addTomark = (blog)=>{
     const newCrat = [...cart,blog];
     setcart(newCrat)
   }
-// console.log(cart)
 
+
+  //add read time count
+  const [read,setreadtime] = useState(0);
+
+  const readtime = (current,id) =>{
+  const totaltime = read + current
+  setreadtime(totaltime)
+  const remainingBookmarks = cart.filter(bookmark => bookmark.id !== id);
+  setcart(remainingBookmarks);
+  
+ }
 
   return (
     <>
@@ -26,8 +37,8 @@ function App() {
     </header>
     <main className='flex justify-between gap-4 mt-8'>
  
-    <Blogs addTomark ={addTomark}></Blogs>
-    <Bookmarks cart ={cart}></Bookmarks>
+    <Blogs readtime={readtime}  addTomark ={addTomark}></Blogs>
+    <Bookmarks read={read}  cart ={cart}></Bookmarks>
       
     </main>
 

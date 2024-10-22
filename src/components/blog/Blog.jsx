@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({data,addTomark}) => {
-  const  {title,cover,profile_img,hashtags,read_time,post_date,author} = data
+const Blog = ({data,addTomark,readtime}) => {
+  const  {title,cover,profile_img,hashtags,read_time,post_date,author,id} = data
 //   console.log(hashtags)
  
     return (
@@ -26,7 +26,7 @@ const Blog = ({data,addTomark}) => {
             <p className="gap-4 text-gray-500 flex font-semibold">{
                     hashtags.map((hash, idx) => <span key={idx}><a href="">{hash}</a> </span>)
             }</p>
-            <button className="text-purple-700 underline font-semibold py-3" >Mark as read </button>
+            <button onClick={()=>{readtime(read_time,id)}} className="text-purple-700 underline font-semibold py-3" >Mark as read </button>
 
            
         </div>
@@ -35,6 +35,7 @@ const Blog = ({data,addTomark}) => {
 
 Blog.propTypes = {
     data: PropTypes.object,
-    addTomark: PropTypes.func   
+    addTomark: PropTypes.func,
+    readtime:PropTypes.func   
   };
 export default Blog;

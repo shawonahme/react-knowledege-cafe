@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../blog/Blog";
 
-const Blogs = ({addTomark}) => {
+const Blogs = ({addTomark,readtime}) => {
 
     const [blogs,setBlogs] = useState([])
 
@@ -17,7 +17,7 @@ const Blogs = ({addTomark}) => {
         <>
          <div className="basis-[67%]">
            
-           {blogs.map((date,inx) => <Blog addTomark ={addTomark} key={inx} data = {date}></Blog>)}
+           {blogs.map((date,inx) => <Blog readtime={readtime} addTomark ={addTomark} key={inx} data = {date}></Blog>)}
            
          </div>
 
@@ -28,6 +28,7 @@ const Blogs = ({addTomark}) => {
 
 Blogs.propTypes = {
     addTomark: PropTypes.func,
+    readtime: PropTypes.func
      
   };
 export default Blogs;
