@@ -8,7 +8,8 @@
       "read_time": 5,
       "id":1,
       "postdata": "Artificial Intelligence is evolving rapidly, transforming industries and creating new opportunities.",
-      "post_date": "Oct 10 (2 Days ago)"
+      "post_date": "Oct 10 (2 Days ago)",
+      "author": "shawon"
     },
     {
       "cover": "https://i.ibb.co.com/8DxZbPq/2.png",
@@ -18,7 +19,9 @@
       "read_time": 7,
       "id":2,
       "postdata": "Following best coding practices can save time and reduce bugs, enhancing your overall development process.",
-      "post_date": "Mar 14 (4 Days ago)"
+      "post_date": "Mar 14 (4 Days ago)",
+      "author": "Md Rohan Hossian"
+
     },
     {
       "cover": "https://i.ibb.co.com/SswLxY0/3.png",
@@ -28,7 +31,9 @@
       "read_time": 6,
       "id":3,
       "postdata": "Blockchain technology has revolutionized financial systems, offering transparency and security.",
-      "post_date": "Sep 22 (1 Week ago)"
+      "post_date": "Sep 22 (1 Week ago)",
+      "author": "Shawon Ahmed"
+
     },
     {
       "cover": "https://i.ibb.co.com/2WNKp6y/4.jpg",
@@ -38,7 +43,9 @@
       "read_time": 4,
       "id":4,
       "postdata": "Maintaining a healthy work-life balance is crucial for developers to avoid burnout and boost productivity.",
-      "post_date": "Aug 30 (3 Weeks ago)"
+      "post_date": "Aug 30 (3 Weeks ago)",
+      "author": "Tuskan Ahmed"
+
     },
     {
       "cover": "https://i.ibb.co.com/SswLxY0/3.png",
@@ -48,7 +55,9 @@
       "read_time": 8,
       "id":5,
       "postdata": "Machine Learning opens up endless possibilities for solving complex problems with data-driven insights.",
-      "post_date": "Jan 10 (9 Months ago)"
+      "post_date": "Jan 10 (9 Months ago)",     
+       "author": "riad Ahmed"
+
     }
   ]
   

@@ -14,10 +14,10 @@ const Blogs = () => {
     },[])
     return (
         <>
-         <div>
-           <ul>
-           {blogs.map(date => <Blog key={date.id} data = {date}></Blog>)}
-           </ul>
+         <div className="basis-[67%]">
+           
+           {blogs.map((date,inx) => <Blog key={inx} data = {date}></Blog>)}
+           
          </div>
 
 
