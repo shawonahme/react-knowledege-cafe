@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../blog/Blog";
 
-const Blogs = () => {
+const Blogs = ({addTomark}) => {
 
     const [blogs,setBlogs] = useState([])
 
@@ -16,7 +17,7 @@ const Blogs = () => {
         <>
          <div className="basis-[67%]">
            
-           {blogs.map((date,inx) => <Blog key={inx} data = {date}></Blog>)}
+           {blogs.map((date,inx) => <Blog addTomark ={addTomark} key={inx} data = {date}></Blog>)}
            
          </div>
 
@@ -25,4 +26,8 @@ const Blogs = () => {
     );
 };
 
+Blogs.propTypes = {
+    addTomark: PropTypes.func,
+     
+  };
 export default Blogs;

@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Blogs from './components/blogs/blogs'
 import Bookmarks from './components/Bookmarks/Bookmarks'
@@ -8,6 +9,13 @@ import Header from './components/Header.jsx/Header'
 
 function App() {
   
+  const [cart,setcart] =useState([])
+  const addTomark = (blog)=>{
+    const newCrat = [...cart,blog];
+    setcart(newCrat)
+  }
+// console.log(cart)
+
 
   return (
     <>
@@ -18,8 +26,8 @@ function App() {
     </header>
     <main className='flex justify-between gap-4 mt-8'>
  
-    <Blogs></Blogs>
-    <Bookmarks></Bookmarks>
+    <Blogs addTomark ={addTomark}></Blogs>
+    <Bookmarks cart ={cart}></Bookmarks>
       
     </main>
 
